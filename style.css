@@ -1,0 +1,230 @@
+/* Header styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 50px; /* Adjust as per your logo size */
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Adjusted margin between list items */
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+.menu a {
+  color: black; /* Changed navbar link color to black */
+  text-decoration: none;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: #CE2001 !important; /* Changed button background color to #CE2001 */
+  color: white; /* Changed button text color to white */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Targeting the button element within the navbar */
+.navbar .btn {
+  background-color: #DC3B01 !important; /* Changed button background color to #CE2001 */
+}
+
+
+/* Hero section styles */
+/* CSS: Hero Reversed Section */
+/* Additional CSS for aligning hero-reversed section */
+.hero-reversed {
+  padding: 100px 0; /* Adjust padding as needed */
+}
+
+.hero-reversed-content {
+  text-align: left;
+}
+
+.hero-reversed h2 {
+  margin-bottom: 20px;
+}
+
+.hero-reversed-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* To maintain circular shape if needed */
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .navbar-toggler {
+    margin-top: 10px;
+  }
+}
+
+/* Service section styles */
+/* Additional CSS to add a border under the service section */
+/* CSS: Renaming and styling the About Me section */
+.about-me {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+.about-me .row {
+  display: flex;
+  align-items: center;
+}
+
+.about-me .about-me-image {
+  text-align: center;
+}
+
+.about-me .about-me-image img {
+  width: 300px;
+  height: auto; /* Adjust image size as needed */
+}
+
+.about-me .about-me-content {
+  text-align: left;
+}
+
+.about-me .about-me-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-me .about-me-content p {
+  font-size: 1.1rem;
+}
+
+/* Media query to add padding top to About Me text content on small screens */
+@media (max-width: 576px) {
+  .about-me-content {
+    padding-top: 20px;
+  }
+}
+
+
+
+/* CSS: Styling for Our Services section */
+.services {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+/* CSS: Testimonials Section */
+.testimonials {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+.testimonial-img {
+  max-width: 100px; /* Set the maximum width of the image */
+  width: 100%;
+  border-radius: 50%; /* Ensure the image scales properly */
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.testimonial-author {
+  font-style: italic;
+  font-size: 1rem;
+  color: #777;
+}
+
+/* CSS for Footer Section */
+footer {
+  background-color: #5F1F1F;
+  color: #969696;
+  padding-top: 50px;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer form .form-control {
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+footer form button[type="submit"] {
+  background-color: white;
+  color: #5F1F1F;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer form button[type="submit"]:hover {
+  background-color: #333;
+  color: white; /* Change color on hover */
+}
+
+/* CSS for Our Services text content */
+footer .services-content {
+  margin-top: 20px;
+}
+/* Media query to add margin top to footer services on small screens */
+@media (max-width: 576px) {
+  footer .services-content {
+    margin-top: 20px; /* Adjust margin top as needed */
+  }
+}
+/* Media query to add margin bottom to footer button on small screens */
+@media (max-width: 576px) {
+  footer form button[type="submit"] {
+    margin-bottom: 20px; /* Adjust margin bottom as needed */
+  }
+}
+
+/* CSS for copyright message */
+/* CSS for copyright message */
+/* CSS for copyright message */
+/* CSS for copyright message */
+footer .copyright-message {
+  margin-top: 20px;
+  margin-bottom: 0; /* Remove bottom margin */
+  padding-bottom: 0; /* Remove bottom padding */
+  display: block; /* Ensure it behaves like a block element */
+  line-height: normal; /* Reset line height */
+}
+
+
+
